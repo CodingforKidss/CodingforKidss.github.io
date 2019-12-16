@@ -1,0 +1,278 @@
+.cascading-modal {
+    margin-top : 10%
+}
+
+.cascading-modal .modal-content {
+    position               : relative;
+    display                : flex;
+    -ms-flex-direction     : column;
+    -webkit-flex-direction : column;
+    flex-direction         : column;
+    pointer-events         : auto;
+    background-color       : #FFFFFF;
+    border                 : 1px solid rgba(0, 0, 0, .0);
+    border-radius          : .2rem;
+    outline                : 0
+}
+
+.cascading-modal .close {
+    color       : #FFFFFF;
+    opacity     : 1;
+    text-shadow : none;
+    padding-top : 3px;
+    padding     : 15px;
+    margin      : -15px -15px -15px auto;
+}
+
+.cascading-modal .close:focus, .cascading-modal .close:hover {
+    text-decoration : none;
+    opacity         : .75;
+    transition      : 0.3s;
+    cursor          : pointer;
+}
+
+
+.cascading-modal .modal-header {
+    display                 : flex;
+    -ms-flex-align          : start;
+    -webkit-box-align       : start;
+    -webkit-align-items     : flex-start;
+    align-items             : flex-start;
+    -ms-flex-pack           : justify;
+    -webkit-box-pack        : justify;
+    -webkit-justify-content : space-between;
+    justify-content         : space-between;
+    padding                 : 15px;
+    border-bottom           : 1px solid #E9ECEF;
+    border-top-left-radius  : .3rem;
+    border-top-right-radius : .3rem;
+    text-align              : center;
+    margin                  : -32px 16px 16px 16px !important;
+    padding                 : 24px !important;
+    border                  : none;
+    border-radius           : 3px
+}
+
+
+.cascading-modal .modal-header .title {
+    margin-top    : 0;
+    margin-bottom : 0;
+    font-size     : 20px !important;
+    font-weight   : 400;
+    font-family   : $OpenSans;
+    width         : 100%;
+    margin-bottom : 0;
+    color         : white;
+}
+
+.cascading-modal .modal-header .title .fas {
+
+}
+
+.cascading-modal .m-body {
+    color   : #616161;
+    padding : 0.7rem 2.2rem 1.0rem 2.2rem;
+}
+
+.cascading-modal .m-footer {
+    border-top : 1px solid #B5B5B55E;
+    padding    : 0.9rem 1.2rem 1.0rem 1.2rem;
+}
+
+.cascading-modal .m-footer .button-single {
+    margin      : 0;
+    font-size   : 12px;
+    font-weight : 400;
+    box-shadow  : 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+
+    .fas, .far {
+        margin-left    : 4px;
+        font-size      : 16px;
+        vertical-align : top;
+    }
+}
+
+.cascading-modal .modal-header .social-buttons {
+    margin-top : 1.5rem
+}
+
+.cascading-modal .modal-header .social-buttons a {
+    font-size : 1rem
+}
+
+.cascading-modal .modal-c-tabs .nav-tabs {
+    margin : -1.5rem 1rem 0
+}
+
+.cascading-modal .modal-c-tabs .tab-content {
+    padding : 1.7rem 0 0
+}
+
+.cascading-modal .nav-tabs {
+    display : -webkit-box;
+    display : -webkit-flex;
+    display : -ms-flexbox;
+    display : flex
+}
+
+.cascading-modal .nav-tabs li {
+    -webkit-box-flex : 1;
+    -webkit-flex     : 1;
+    -ms-flex         : 1;
+    flex             : 1
+}
+
+.cascading-modal .nav-tabs li a {
+    text-align  : center;
+    font-weight : 400
+}
+
+.cascading-modal .m-body .additional-option, .cascading-modal .m-footer .additional-option {
+    text-align : center;
+    margin-top : 1rem;
+}
+
+.cascading-modal.modal-avatar {
+    margin-top : 6rem;
+}
+
+.cascading-modal.modal-avatar .modal-header {
+    margin : -6rem 2rem -1rem;
+}
+
+.cascading-modal.modal-avatar .modal-header img {
+    width        : 130px;
+    margin-left  : auto;
+    margin-right : auto;
+}
+
+.modal-notify .heading {
+    margin    : 0;
+    padding   : .3rem;
+    color     : #FFFFFF;
+    font-size : 1.15rem;
+}
+
+.modal-notify .modal-header {
+    border : 0;
+}
+
+.modal-notify .close {
+    opacity : 1;
+}
+
+.modal-notify .m-body {
+    padding : 1.5rem;
+    color   : #616161;
+}
+
+.m-body tbody > tr > td:nth-child(2n + 1) {
+    color : #7C7C7C;
+}
+
+.m-body tbody > tr > td:nth-child(2n) {
+    color : #1C1C1C;
+}
+
+.modal-notify .btn-outline-secondary-modal {
+    background-color : transparent
+}
+
+.modal-notify.modal-info .badge, .modal-notify.modal-info .btn-primary-modal, .modal-notify.modal-info .modal-header {
+    background-color : #5394FF
+}
+
+.modal-notify.modal-info .fa {
+    color : #5394FF
+}
+
+.modal-notify.modal-info .btn-primary-modal:hover {
+    background-color : #6DA4FF !important
+}
+
+.modal-notify.modal-info .btn-primary-modal.active, .modal-notify.modal-info .btn-primary-modal:active, .modal-notify.modal-info .btn-primary-modal:focus {
+    background-color : #0764FF !important
+}
+
+.modal-notify.modal-info .btn-primary-modal.dropdown-toggle {
+    background-color : #5394FF !important
+}
+
+.modal-notify.modal-info .btn-primary-modal.dropdown-toggle:focus, .modal-notify.modal-info .btn-primary-modal.dropdown-toggle:hover {
+    background-color : #6DA4FF !important
+}
+
+.modal-notify.modal-info .btn-outline-secondary-modal {
+    border           : 2px solid #5394FF;
+    color            : #5394FF !important;
+    background-color : transparent
+}
+
+.comments-list .mdb-lightbox figure img, .mdb-lightbox figure .comments-list img, .mdb-lightbox figure .img-fluid, .mdb-lightbox figure .cascading-modal.modal-avatar .modal-header, .mdb-lightbox figure .reply-form img, .mdb-lightbox figure .section-blog-fw .view img, .cascading-modal.modal-avatar .mdb-lightbox figure .modal-header, .reply-form .mdb-lightbox figure img, .section-blog-fw .view .mdb-lightbox figure img {
+    display : inline
+}
+
+.cascading-modal.modal-avatar .modal-header {
+    max-width : 100%;
+    height    : auto
+}
+
+@media only screen and (max-width : 992px) {
+    .center-on-small-only .cascading-modal.modal-avatar .modal-header, .cascading-modal.modal-avatar .center-on-small-only .modal-header {
+        display : inline
+    }
+}
+
+
+.modal-header-blue {
+    background : linear-gradient(60deg, $blue-500, $blue-700);
+    @include shadow-big-color($blue-800);
+}
+
+.modal-header-edit {
+    background : linear-gradient(60deg, $yellow-700, $yellow-800);
+    @include shadow-big-color($yellow-900);
+}
+
+.modal-header-danger {
+    background : linear-gradient(60deg, $red-400, $red-700);
+    @include shadow-big-color($red-900);
+}
+
+.modal-header-warning {
+    background : linear-gradient(60deg, $amber-400, $amber-700);
+    @include shadow-big-color($amber-800);
+}
+
+.modal-header-info {
+    background : linear-gradient(60deg, $blue-grey-600, $blue-grey-700);
+    @include shadow-big-color($blue-grey-900);
+}
+
+.modal-header-purple {
+    background : linear-gradient(60deg, $purple-A700, $purple-400);
+    @include shadow-big-color($purple-800);
+}
+
+.modal-custom {
+    $github_color   : #DBA226;
+    $facebook_color : #3880FF;
+
+    .pop-out-enter-active,
+    .pop-out-leave-active {
+        transition : all 0.5s;
+    }
+
+    .pop-out-enter,
+    .pop-out-leave-active {
+        opacity   : 0;
+        transform : translateY(24px);
+    }
+}
+
+.modal-custom {
+    .v--modal {
+        background-color : rgba(255, 255, 255, 0) !important;
+        box-shadow       : 0 20px 60px -2px rgba(27, 33, 58, 0.0) !important;
+    }
+}

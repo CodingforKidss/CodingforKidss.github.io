@@ -1,0 +1,86 @@
+button, input, a, .noprint, .sidebar {
+    display : none !important;
+}
+
+
+.body {
+    font-family : 'Open Sans', sans-serif;
+}
+
+.document-title {
+    font-size     : 28px;
+    font-weight   : bold;
+    margin-bottom : 24px;
+    text-align    : center;
+}
+
+.section-title {
+    font-family   : 'Raleway', sans-serif;
+    font-size     : 18px;
+    font-weight   : bold;
+    margin-bottom : 8px;
+    text-align    : center;
+}
+
+.section-subtitle {
+    font-family   : 'Open Sans', sans-serif;
+    font-size     : 16px;
+    font-weight   : normal;
+    margin-bottom : 8px;
+    text-align    : center;
+}
+
+.section-time {
+    font-family   : 'Open Sans', sans-serif;
+    font-size     : 11px;
+    font-weight   : normal;
+    margin-bottom : 15px;
+    text-align    : right;
+}
+
+.table-div {
+    font-family : 'Open Sans', sans-serif;
+    display     : block;
+    width       : 100%;
+}
+
+table {
+    width           : 100%;
+    margin-bottom   : 1rem;
+    color           : #212529;
+    border-collapse : collapse;
+    display         : table;
+}
+
+table tbody > tr:nth-of-type(2n+1) {
+    background-color : #fff;
+}
+
+table tbody > tr:nth-of-type(2n) {
+    background-color : #FFFCF5;
+}
+
+.table-tbody {
+}
+
+table th {
+    padding        : 15px 5px;
+    vertical-align : bottom;
+    border-bottom  : 2px solid #dee2e6;
+    text-align     : left;
+    font-size      : 12px;
+}
+
+table tr {
+    font-size : 12px;
+}
+
+table td {
+    padding       : 15px 5px;
+    border-bottom : 1px solid #dee2e6;
+}
+
+
+.m-body, modal-header {
+    text-align : center;
+}
